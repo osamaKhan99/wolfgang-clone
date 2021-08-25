@@ -1,0 +1,151 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+   .header-right img {
+      width: 100%;
+   }
+
+}
+
+@media (max-width: 991px) {
+   .menu-bar,
+   .offcanves-menu {
+     display: block;
+   }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+   .header-area {
+      padding: 20px;
+   }
+
+   .bottom-items a.btn {
+      padding: 14px 10px;
+      font-size: 12px;
+      /* width: 48%; */
+      flex: 0 0 auto;
+   }
+   .bottom-items .header-right{
+      flex: 0 0 auto;
+      width: 48%;
+   }
+   .bottom-items .header-right img{
+     width: 100%;
+   }
+   .bottom-items {
+      padding-right: 20px;
+      margin-top: 20px;
+   }
+
+
+   .menu-bar,
+   .offcanves-menu{
+     display: block;
+   }
+
+   .footer-area {
+      padding: 25px 0;
+   }
+   .footer-menu ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+   }
+   .footer-menu ul li {
+      margin-left: 0px;
+      flex: 0 0 auto;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 8px;
+   }
+   .logo {
+      max-width: 200px;
+      margin: 0 auto;
+   }
+   .qotet-text p {
+      font-size: 14px;
+   }
+   .net-img {
+      right: 18px;
+      bottom: -7px;
+   }
+}
+@media (max-width: 575px) {
+
+
+
+
+   .menu-bar,
+   .offcanves-menu{
+     display: block;
+   }
+   .main-menu {
+      display: none;
+    }
+   .social {
+      justify-content: center;
+      margin-top: 15px;
+   }
+   .social li a {
+      margin: 0 16px;
+   }
+   p {
+      font-size: 14px;
+   }
+   h2 {
+      font-size: 25px;
+   }
+   .about-area {
+      padding: 37px 0;
+   }
+   .count-down-timer-section {
+      padding-bottom: 90px;
+      padding-top: 40px;
+   }
+   .count-down-timer {
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+   }
+   .count-down-title h2 {
+      font-size: 24px;
+      margin: 0;
+      margin-bottom: 26px;
+   }
+   .team-member-wrapper {
+      flex-direction: column;
+      text-align: center;
+   }
+   .team-member-info {
+      padding-left: 0px;
+   }
+   .team-member-image {
+      margin-bottom: 30px;
+   }
+
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}
